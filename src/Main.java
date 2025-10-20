@@ -9,9 +9,8 @@ public class Main {
         System.out.println("2. Mie Goreng - Rp12000");
         System.out.println("3. Ayam Geprek - Rp18000");
         System.out.println("4. Sate Ayam - Rp20000");
-        System.out.println("5. Bakso - Rp13000");
         System.out.println("=============================");
-        System.out.print("Pilih menu (1-5): ");
+        System.out.print("Pilih menu (1-4): ");
         int pilihan = input.nextInt();
 
         String namaMakanan = "";
@@ -29,9 +28,6 @@ public class Main {
         } else if (pilihan == 4) {
             namaMakanan = "Sate Ayam";
             harga = 20000;
-        } else if (pilihan == 5) {
-            namaMakanan = "Bakso";
-            harga = 13000;
         } else {
             System.out.println("Pilihan tidak tersedia!");
             System.exit(0);
