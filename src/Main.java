@@ -1,15 +1,34 @@
 import java.util.Scanner;
 
+/**
+ * Aplikasi pemesanan menu makanan sederhana.
+ * Program ini memungkinkan pengguna untuk memilih menu makanan,
+ * menentukan jumlah porsi, dan menghitung total harga pesanan.
+ *
+ * @author [Nama Anda]
+ * @version 1.0
+ * @since 2025-10-27
+ */
 public class Main {
+
+    /**
+     * Method utama untuk menjalankan aplikasi menu makanan.
+     * Menampilkan daftar menu, menerima input pilihan pengguna,
+     * dan menghitung total pembayaran.
+     *
+     * @param args argumen command line (tidak digunakan)
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // Menampilkan header aplikasi
         System.out.println("=== Aplikasi Menu Makanan ===");
         System.out.println("1. Nasi Goreng - Rp15000");
         System.out.println("2. Mie Goreng - Rp12000");
         System.out.println("3. Ayam Geprek - Rp18000");
         System.out.println("4. Sate Ayam - Rp20000");
         System.out.println("=============================");
+
         System.out.print("Pilih menu (1-4): ");
         int pilihan = input.nextInt();
 
